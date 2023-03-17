@@ -1,3 +1,81 @@
-*{
-    box-sizing: border-box;     
+/* Generales */
+* {
+    box-sizing: border-box;
+    font-family: 'Annie Use Your Telescope', cursive;
+
+}
+
+ul {
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    height: 100vh;
+    background: url('/img/elefante-body.jpg') no-repeat 30% top/cover, black;
+}
+
+.anchomaximo {
+    width: 95%;
+}
+
+.container {
+    display: flex;
+    justify-content: end;
+    margin: 50px 50px 0 0;
+}
+
+/* Header */
+.navHeader li a {
+
+    color: rgb(202 202 202);
+    font-size: 2.5em;
+    text-transform: uppercase;
+    transition: 0.5s;
+
+}
+
+.navHeader li a:hover {
+    color: #fff;
+    transform: scale(1.1);
+    /* border-bottom: 1px solid lightgray; */
+}
+
+/* Main */
+
+main {
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+main>div{
+    align-content: center;
+}
+
+.articuloElefantes {    
+    background-color: rgb(0, 0, 0, 0.6);
+    width: 50%;    
+    padding: 0 15px;
+    border-radius: 15px;
+    font-size: 1.4em;
+    letter-spacing: 1px;
+}
+
+/* Footer */
+footer{
+    color: #fff;
+    font-size: 1.1em;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
