@@ -7,10 +7,56 @@
     <title>Document</title>
     <!-- Reset estilos -->
     <link rel="stylesheet" href="css/normalize.css">
+
+    <!-- Fuentes google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap" rel="stylesheet">
+
     <!-- Mis estilos -->
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/estilos-contacto.css">
 </head>
 <body>
+    <header>
+
+        <div class="anchomaximo">
+            
+        <div class="containerHead">
+            <ul class="navHeader">
+                <li><a href="index.html">informacion</a></li>
+                <li><a href="arte-nombre.html">Arte</a></li>
+            </ul>
+        </div>
+        </div>
+        
+    </header>
+    
+    <main>
+        <div class="container">
+            <form action="">
+                <div class="campoNombre">
+                    <input type="text" placeholder="NOMBRE:" id="nombre-usuario" name="nombre-usuario">
+                </div> 
+                
+                <div class="campoComentarios">
+                    <textarea name="campo-comentarios" id="campo-comentarios" cols="30" rows="10" placeholder="Envienos su informacion, experiencias o anecdotas personales sobre nuestro animal favorito"></textarea>
+                </div>               
+
+                <div class="campoClausulas">
+                    <input type="checkbox" name="aceptar-clausulas" id="aceptar-clausulas">
+                    <label for="aceptar-clausulas">Acepte las siguiente clausulas</label>
+                </div>
+
+                <div class="campoSubmit">
+                    <input type="submit" value="ENVIAR">
+                </div>
+                
+                
+            </form>
+
+        </div>
+        
+    </main>
     
 </body>
 </html>
