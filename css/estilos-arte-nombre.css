@@ -1,0 +1,63 @@
+/* ESTILOS ARTE-NOMBRE */
+
+/* Generales */
+* {
+    box-sizing: border-box;
+    font-family: 'Annie Use Your Telescope', cursive;
+
+}
+
+ul {
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.anchomaximo {
+    max-width: 2000px;
+}
+
+.containerHead {
+    display: flex;
+    justify-content: end;
+    margin: 50px 50px 0 0;
+}
+
+/* Header */
+.navHeader li a {
+    color: rgb(202 202 202);
+    font-size: 2.5em;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.navHeader a:hover {
+    color: #fff;
+    transform: scale(1.1);
+    /* border-bottom: 1px solid lightgray; */
+}
+
+/* Main */
+h1{
+    text-align: center;
+}
+
+.container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container img{
+    width: 60%;
+    height: 50%;
+}
+
+
+
+
+
