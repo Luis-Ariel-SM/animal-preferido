@@ -17,7 +17,7 @@ a {
 
 body {
     height: 100vh;
-    background: url('/img/elefante-body.jpg') no-repeat 30% top/cover, black;  
+    background: url('../img/elefante-body.jpg') no-repeat 30% top/cover, black;  
 }
 
 .anchomaximo {
