@@ -53,14 +53,12 @@ main {
 .container{
     display: flex;
     justify-content: center;
-    align-items: end;
-    position: relative;
+    align-items: end;    
 }
 
 form{
-    width: 50%;
-    position: absolute;
-    top: 450px;
+    width: 50%; 
+    margin-top: 440px;   
 }
 
 form>div{
@@ -71,15 +69,24 @@ input[type="text"], textarea{
     width: 100%;
     border-radius: 10px;
     border: none;
-    padding: 3px 10px;    
-    background:rgb(132, 132, 132, 0.5);    
+    padding: 8px 10px;    
+    background:rgb(132, 132, 132, 0.7); 
+    color:#fff;
+    font-size: 1.1em;
+    letter-spacing: 4px;
+    text-shadow: 0 0 5px black;   
+}
+
+input[type="text"]:focus, textarea:focus{
+    outline: gray;
+     
 }
 
 ::placeholder{
     color:#fff;
     font-weight: bold;
     font-size: 1.5em;
-    letter-spacing: 1px;
+    letter-spacing: 4px;
 }
 
 .campoSubmit{
@@ -92,7 +99,7 @@ input[type="submit"]{
     border-radius: 10px;
     border: none;
     padding: 3px 10px;     
-    background:rgb(132, 132, 132, 0.5);
+    background:rgb(132, 132, 132, 0.7);
     color:#fff;
     font-weight: bold;
     font-size: 1.5em;
@@ -108,4 +115,13 @@ input[type="submit"]{
     .containerMain, .containerHead {         
         margin: 30px 30px 0 0;
     }
+}
+
+@media screen and (max-width: 800px){  
+     
+    form{
+        width: 90%; 
+        margin-top: 400px;   
+    }
+
 }
