@@ -17,7 +17,8 @@ a {
 
 body {
     height: 100vh;
-    background: url('../img/elefante-body.jpg') no-repeat 30% top/cover, black;  
+    background: url('../img/elefante-body.jpg') no-repeat 30% top/cover, black; 
+    background-attachment: fixed; 
 }
 
 .anchomaximo {
@@ -74,9 +75,10 @@ h1 {
 /* Footer */
 footer{
     color: #fff;
-    font-size: 1.2em;
+    font-size: 1.5em;
     text-align: center; 
-    margin-top: 100px;   
+    margin-top: 100px; 
+    letter-spacing: 1px;  
 }
 
 @media screen and (max-width: 1450px){

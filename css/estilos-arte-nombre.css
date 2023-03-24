@@ -18,8 +18,10 @@ a {
 
 body {
     height: 100vh;
-    background:linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)), url('../img/elefante-documental.jpg') center top/cover, black;  
-}
+    background:linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)), url('../img/elefante-documental.jpg') center top/cover, black; 
+    background-attachment: fixed; 
+} 
+
 
 .anchomaximo {
     max-width: 2000px;

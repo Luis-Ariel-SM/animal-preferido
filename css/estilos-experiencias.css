@@ -14,7 +14,7 @@ a {
 .experiencias {
     height: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(50, 50, 50, 0.2)),
-                url('../img/elefante-experiencias.jpg') no-repeat 30% top/cover, black;  
+    url('../img/elefante-experiencias.jpg') no-repeat 30% top/cover, black;  
     background-attachment: fixed;
 }
 .anchomaximo {
@@ -83,10 +83,11 @@ h2{
 }
 /* Footer */
 footer{
-    background: none;
     color: #fff;
-    font-size: 1.2em;
-    text-align: center;  
+    font-size: 1.5em;
+    text-align: center; 
+    margin-top: 100px; 
+    letter-spacing: 1px;  
 }
 
 /* Zona Css de Experiencias1 */
