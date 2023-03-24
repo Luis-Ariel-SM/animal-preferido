@@ -36,16 +36,17 @@
     <main>
         <div class="container">
             <form action="">
+                <p><small>Los campos de contacto son obligatorios</small></p>
                 <div class="campoNombre">
-                    <input type="text" placeholder="Nombre:" id="nombre-usuario" name="nombre-usuario">
+                    <input type="text" placeholder="Nombre:" id="nombre-usuario" name="nombre-usuario" required>
                 </div> 
                 
                 <div class="campoComentarios">
-                    <textarea name="campo-comentarios" id="campo-comentarios" cols="30" rows="10" placeholder="Envienos su informacion, experiencias o anecdotas personales sobre nuestro animal favorito"></textarea>
+                    <textarea name="campo-comentarios" id="campo-comentarios" cols="30" rows="10" placeholder="Envienos su informacion, experiencias o anecdotas personales sobre nuestro animal favorito" required></textarea>
                 </div>               
 
                 <div class="campoClausulas">
-                    <input type="checkbox" name="aceptar-clausulas" id="aceptar-clausulas">
+                    <input type="checkbox" name="aceptar-clausulas" id="aceptar-clausulas" required>
                     <label for="aceptar-clausulas">Acepte las siguiente clausulas</label>
                 </div>
 
